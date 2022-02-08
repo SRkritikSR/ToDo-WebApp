@@ -23,26 +23,29 @@ function App(props) {
       {/* <DisplayTodo /> */}
       {/* <CreateTodo/> */}
       <Navbar />
-      <div className="my-5">
-        <Router>
-          <Switch>
-            <Route path="/CreateTodo">
-              <CreateTodo />
+        
+//       <div className="my-5">
+//         <Router>
+//           <Switch>
+//             <Route path="/CreateTodo">
+//               <CreateTodo />
 
-            </Route>
-            <Route path="/Personaldetails">
-              <Personaldetails/>
-            </Route>
-            {/* <Route path="/DisplayTodo">
-              <DisplayTodo UserData={EmptyAr}/>
+//             </Route>
+//             <Route path="/Personaldetails">
+//               <Personaldetails/>
+//             </Route>
+//             {/* <Route path="/DisplayTodo">
+//               <DisplayTodo UserData={EmptyAr}/>
               
-            </Route> */}
-            {/* <Route path="/">
-              <App/>
-            </Route> */}
-          </Switch>
-        </Router>
-      </div>
+//             </Route> */}
+//             {/* <Route path="/">
+//               <App/>
+//             </Route> */}
+//           </Switch>
+//         </Router>
+//       </div>
+        
+        
 
 
     </>
