@@ -23,6 +23,9 @@ function App(props) {
       {/* <DisplayTodo /> */}
       {/* <CreateTodo/> */}
       <Navbar />
+      <DisplayTodo/>
+      <CreateTodo/>
+      <PersonalDetails/>
         
 //       <div className="my-5">
 //         <Router>
