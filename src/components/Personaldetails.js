@@ -1,7 +1,5 @@
-import react, { useState } from 'react';
-import App from '../App';
-import Navbar from './Navbar';
-import CreateTodo from './CreateTodo';
+import { useState } from 'react';
+
 export default function Personaldetails(props) {
     const [Name, UpdateUserName] = useState("")
 
@@ -12,7 +10,7 @@ export default function Personaldetails(props) {
         
     }
     const UpdateUserData = (event) => {
-        UpdateUserName(event.target.value)
+        UpdateUserName(event.taraget.value)
     }
 
     return (
@@ -30,7 +28,7 @@ export default function Personaldetails(props) {
                     <input type="text" className="form-control my-2" id="exampleInputPassword1" placeholder="Username    " />
                 </div>
 
-                <button type="button" className="btn btn-light my-5" onClick={() => {
+                <button type="button" className="btn btn-light my-5 " onClick={() => {
                     console.log(Name, typeof (Name))
                     UpdateUserName("");
                 }}>Submit
