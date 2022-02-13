@@ -1,15 +1,11 @@
 
-import { useState } from "react";
-import CreateTodo from "./CreateTodo.js";
-import DisplayTodo from "./DisplayTodo.js";
+// import { useState } from "react";
 
-import Personaldetails from "./Personaldetails.js";
 
 
 
 
 export default function Navbar(props) {
-    const [UserName,UpdateUserName]=useState("");
     return (
         <>
         <div>
